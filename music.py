@@ -11,7 +11,7 @@ def Download(links):
 			'format':'bestaudio'
 		}
 		#Changing The directory to the downloading folder
-		os.chdir('F:\\songs23')
+		os.chdir('<Download Directory>')
 		#Downloading
 		with YoutubeDL(opts) as ydl:
 			ydl.download([link])
